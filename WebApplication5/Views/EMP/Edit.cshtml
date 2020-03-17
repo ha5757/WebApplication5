@@ -1,0 +1,49 @@
+﻿@model WebApplication5.Models.EMPDATA
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm("Update","EMP"))
+{
+    <table>
+        <tr>
+            <td>EMPNO</td>
+            <td>@Html.TextBoxFor(a => a.EMPNO)</td>
+            </tr>
+        <tr>
+            <td>Ename</td>
+            <td>@Html.TextBoxFor(a=> a.ENAME)</td>
+        </tr>
+        <tr>
+            <td>JOB</td>
+            <td>@Html.TextBoxFor(a=>a.JOB)</td>
+        </tr>
+        <tr>
+            <td>MGR</td>
+            <td>@Html.TextBoxFor(a=>a.HIREDATE)</td>
+        </tr>
+        <tr>
+            <td>HIREDATE</td>
+            <td>@Html.TextBoxFor(a=>a.SAL)</td>
+        </tr>
+        <tr>
+            <td>SAL</td>
+            <td>@Html.TextBoxFor(a=>a.SAL)</td>
+        </tr>
+        <tr><td>COMM</td>
+        <td>@Html.TextBoxFor(a=>a.COMM)</td>
+        </tr>
+        <tr><td>DEPTNO</td>
+        <td>@Html.TextBoxFor(a=>a.DEPTNO)</td></tr>
+        <tr>
+            <td><input type="submit" /></td>
+        </tr>
+        <tr>
+            
+            <td>@Html.ActionLink("back to emp","Index","EMP")</td>
+        </tr>
+            </table>
+            
+   }
+

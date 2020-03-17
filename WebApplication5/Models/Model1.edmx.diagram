@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5162c5f5ec2144fc8e3b052f33ee8bd1" Name="Diagram1">
+        <EntityTypeShape EntityType="DemoModel3.EMPDATA" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DemoModel3.FK_EMPDATA_EMPDATA" ManuallyRouted="false" />
+        <AssociationConnector Association="DemoModel3.FK_EMPDept" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DemoModel3.tbl_login" Width="1.5" PointX="3.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
